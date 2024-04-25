@@ -1,0 +1,74 @@
+/*ESTILIZAÇÃO DA PAGINA DE CADASTRO, CADASTRO.PHP*/
+
+body {
+    background: linear-gradient(135deg, #82DFD6, #06A7BF);
+    background-image: url("../img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.956);
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card .btn {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 200px;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-top: 0px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
